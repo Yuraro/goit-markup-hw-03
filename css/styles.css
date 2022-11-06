@@ -217,6 +217,7 @@ color: var(--blue-active-color);
 /* ------------TEAM-------------- */
 
 .team {
+    background: #F5F4FA;
     padding-top: 94px;
     padding-bottom: 94px;
 }
