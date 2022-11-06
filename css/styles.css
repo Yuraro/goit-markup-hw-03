@@ -96,6 +96,11 @@ body{
     color: var(--blue-active-color);
 }
 
+.header-nav-list {
+    display: flex;
+    margin-left: auto;
+}
+
 .header-nav-address {
     font-weight: 500;
     font-size: 14px;
