@@ -70,12 +70,11 @@ body{
 .header {
     padding-top: 24px;
     padding-bottom: 25px;
+    border-bottom: #ECECEC 1px;
 }
 
 .header-upnav {
     display: flex;
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 .header-nav {
@@ -131,7 +130,8 @@ color: var(--blue-active-color);
 
 .hero {
     background: #2F303A;
-    padding: 452px 200px 452px 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .hero-title {
     font-weight: 900;
@@ -159,6 +159,8 @@ color: var(--blue-active-color);
     cursor: pointer;
     display: block;
     margin: 0 auto;
+    width: 216px;
+    height: 50px;
 }
 
 /* ------------ABOUT-------------- */
@@ -195,12 +197,11 @@ color: var(--blue-active-color);
 /* ------------EXAMPLE-------------- */
 
 .example {
-    padding-top: 94px;
     padding-bottom: 94px;
 }
 .example-title {
     font-size: 36px;
-    line-height: 1.6666;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-color);
@@ -223,7 +224,7 @@ color: var(--blue-active-color);
 }
 .team-title {
     font-size: 36px;
-    line-height: 1.6666;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-color);
@@ -235,9 +236,15 @@ color: var(--blue-active-color);
 }
 
 .team-list {}
+
 .team-item {
-    margin-bottom: 30px;
 }
+
+.team-description {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .team-name {
     font-weight: 500;
     font-size: 16px;
@@ -253,7 +260,6 @@ color: var(--blue-active-color);
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--subtitle-color);
-    margin-bottom: 30px;
 }
 
 /* ------------FOOTER-------------- */
@@ -301,7 +307,6 @@ color: #FFFFFF;
 }
 .all-btn {
     margin-bottom: 50px;
-    padding: 22px 6px;
 
     display: flex;
     gap: 8px;
@@ -320,6 +325,7 @@ color: #FFFFFF;
     cursor: pointer;
     background: #F5F4FA;
     border-radius: 4px;
+    padding: 6px 22px 6px 22px;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus{
@@ -340,7 +346,8 @@ color: #FFFFFF;
 .portfolio-item {}
 
 .under-photo {
-    padding: 24px 20px;
+    padding: 20px 24px;
+    border: #EEEEEE 1px;
 }
 
 .portfolio-title {
