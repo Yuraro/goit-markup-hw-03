@@ -41,8 +41,6 @@ body{
     color: #2196F3;
     
     margin-right: 93px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .logo-studio {
@@ -70,7 +68,7 @@ body{
 .header {
     padding-top: 24px;
     padding-bottom: 25px;
-    border-bottom: #ECECEC 1px;
+    border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
 
 .header-upnav {
@@ -347,7 +345,7 @@ color: #FFFFFF;
 
 .under-photo {
     padding: 20px 24px;
-    border: #EEEEEE 1px;
+    border: 1px solid #EEEEEE;
 }
 
 .portfolio-title {
